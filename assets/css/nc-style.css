@@ -14,6 +14,19 @@ p {
     text-align: justify;
 }
 
+article {
+    max-width: 50%;
+    display: inline-block;
+    text-align: justify;
+    margin: 3rem 2rem 20rem 5rem;
+}
+
+h2 {
+    font-size: 2rem;
+    text-transform: capitalize;
+    margin: 0px;
+}
+
 button {
     height: 3rem;
     width: 10rem;
@@ -118,3 +131,66 @@ nav a:hover {
 }
 
 
+
+/*Music - Latest Releases*/
+
+#music div {
+    position: relative;
+    min-height: 100rem;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+}
+
+.song1-cover-art {
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    max-width: auto;
+    max-height: 315px;
+}
+
+.song1-youtube-preview {
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    max-width: auto;
+    max-height: 315px;
+
+}
+
+.song1-play-button {
+    max-width: auto;
+    max-height: 2rem;
+    position: absolute;
+    right: 83vw;
+    top: 22%;
+    z-index: 2;
+
+}
+
+.song2-cover-art {
+    position: absolute;
+    left: 5%;
+    top: 30%;
+    max-width: auto;
+    max-height: 315px;
+}
+
+.song2-youtube-preview {
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    max-width: auto;
+    max-height: 315px;
+
+}
+
+.song2-play-button {
+    max-width: auto;
+    max-height: 2rem;
+    position: absolute;
+    right: 83vw;
+    top: 47%;
+    z-index: 2;
+
+}
