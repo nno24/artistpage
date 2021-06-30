@@ -60,6 +60,7 @@ button:active {
     position: fixed;
     top: 2%;
     left: 1%;
+    z-index: 3;
 }
 
 /*Nav*/
@@ -70,6 +71,7 @@ nav {
     position: fixed;
     top: 1%;
     right: 0;
+    z-index: 3;
     
 }
 
@@ -192,5 +194,120 @@ nav a:hover {
     right: 83vw;
     top: 47%;
     z-index: 2;
+}
 
+.song3-cover-art {
+    position: absolute;
+    left: 5%;
+    top: 55%;
+    max-width: auto;
+    max-height: 315px;
+}
+
+.song3-youtube-preview {
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    max-width: auto;
+    max-height: 315px;
+
+}
+
+.song3-play-button {
+    max-width: auto;
+    max-height: 2rem;
+    position: absolute;
+    right: 83vw;
+    top: 72%;
+    z-index: 2;
+}
+
+.spotify-artist {
+    position: absolute;
+    bottom: 0;
+    right: 25%;
+    max-width: 50%;
+    max-height: 20%;
+}
+
+
+/*Store*/
+
+#store div {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    min-height: 30rem;
+}
+
+.beatport-logo {
+    margin-top: 10rem;
+    margin-right: 2rem;
+}
+
+.traxsource-logo {
+    margin-top: 10rem;
+    margin-right: 2rem;
+
+}
+
+
+/*Contact*/
+
+#contact div {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    min-height: 30rem;
+    position: relative;
+}
+
+
+input[type=submit] {
+    height: 3rem;
+    width: 10rem;
+    border: 3px solid transparent;
+    font-size: 1rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: black;
+    background-color: white;
+    position: absolute;
+    bottom: 20%;
+    right: 42.5%;
+    
+}
+
+input[type=submit]:hover {
+    color: white;
+    background-color: rgb(27, 27, 27);
+    font-weight: 900;
+    border-color: white;
+}
+
+input[type=submit]:active {
+    color: black;
+    background-color: white;
+    height: 2.9rem;
+    width: 8.9rem;
+}
+
+input[name=visitor-email],
+input[name=subject-email]{
+    height: 2rem;
+    width: 50vw;
+    padding-right: 20px;
+	margin: 0 auto;
+}
+
+input[name=freetext-email]{
+    height: 15rem;
+    width: 50vw;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+
+::placeholder {
+    text-transform: capitalize;
+    opacity: 0.5;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
 }
