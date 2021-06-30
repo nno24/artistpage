@@ -8,6 +8,12 @@ body{
     text-align: center;
 }
 
+p {
+    max-width: 30%;
+    display: inline-block;
+    text-align: justify;
+}
+
 button {
     height: 3rem;
     width: 10rem;
@@ -97,6 +103,18 @@ nav a:hover {
 
 }
 
+#frontpage p {
+    position: absolute;
+    bottom: 10%;
+    left: 30vw;
+}
 
+
+#frontpage p > img {
+    float:right;
+    max-width: 4rem;
+    max-height: auto;
+    margin: 1rem;
+}
 
 
