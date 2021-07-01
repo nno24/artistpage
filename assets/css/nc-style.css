@@ -14,7 +14,7 @@ body{
 }
 
 p {
-    width: 60vw;
+    width: 50vw;
     display: inline-block;
     text-align: justify;
 }
@@ -291,7 +291,7 @@ input[type=submit] {
     background-color: white;
     position: absolute;
     bottom: 20%;
-    right: 45.5%;
+    right: 25vw;
     
 }
 
@@ -358,8 +358,49 @@ footer img {
 @media screen and (max-width: 1200px) {
     #frontpage {
       width: 65%;
-      height: 1200px;
+      height: 100vh;
       margin: 0 auto;
     }
 
+    #frontpage h1 {
+        font-size: 3rem;
+        margin-top: 1rem;
+    }
+
+    nav a{
+        width: 50vw;
+        margin-left: 1rem;
+        right: 30vw;
+        font-size: 1rem;
+    }
+
+
+}
+
+@media screen and (max-width: 666px) {
+
+    #frontpage h1 {
+        font-size: 2rem;
+        margin-top: 0.7rem;
+    }
+
+    nav a {
+        font-size: 1rem;
+        right: 20vw;
+        width: 30vw;
+    }
+
+    iframe {
+        width: 280px;
+        height: auto;
+    }
+
+    .beatport-logo, .traxsource-logo {
+        width: 50vw;
+        height: auto;
+    }
+
+    input[type=submit] {
+        right: 15vw;
+    }
 }
