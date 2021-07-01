@@ -6,22 +6,21 @@ body{
     color: white;
     text-align: center;
     background-color: rgb(27, 27, 27);
-    background-image: url("../images/artist/5-dark.JPG"), url("../images/artist/4-dark.JPG");
-    background-repeat: no-repeat, no-repeat;
-    background-size: contain, cover;
-    background-position: left top, left 45%;
-    background-attachment: scroll, fixed;
+    background-image: url("../images/artist/4-dark.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left top;
+    background-attachment: fixed;
 }
 
 p {
-    max-width: 30%;
+    width: 60vw;
     display: inline-block;
     text-align: justify;
 }
 
 article {
-    max-width: 50%;
-    display: inline-block;
+    width: 80vw;
     text-align: justify;
     margin: 3rem 2rem 20rem 5rem;
 }
@@ -41,7 +40,7 @@ button {
     text-transform: uppercase;
     color: black;
     background-color: white;
-    
+   
 }
 
 button:hover {
@@ -71,11 +70,11 @@ button:active {
 /*Nav*/
 nav {
     height: auto;
-    width: 30%;
+    width: 50%;
     padding: 0px;
     position: fixed;
     top: 0;
-    right: 0;
+    right: 30vw;
     z-index: 3;
     background-color: rgb(8, 8, 8);
     opacity: 0.95;
@@ -100,35 +99,49 @@ nav a:hover {
 /*Frontpage*/
 
 #frontpage div {
+    position: relative;
     height: 80vh;
-    width: 100%;
+    width: 100vw;
+    top: 0vh;
+    right: 0vw;
+    
 }
 #frontpage {
-    margin-top: 30%;
+    margin-top: 30vh;
 }
 #frontpage h1 {
     font-size: 5rem;
     text-transform: uppercase;
     margin: 0px;
+    position: absolute;
+    top: 5vh;
+    right: 50vh;
 }
 
-.frontpage-preview {
-    width: 30%;
-    position: relative;
-    left: 8%;
-
+#frontpage h4 {
+    position: absolute;
+    top: 12vh;
+    right: 50vh;
 }
+
 #frontpage button {
-    position: relative;
-    top: 7%;
-    right: 15%;
+    position: absolute;
+    top: 22vh;
+    right: 50vw;
 
 }
+.frontpage-preview {
+    width: 40vw;
+    position: absolute;
+    top: 30vh;
+    right: 35vw;
+}
+
 
 #frontpage p {
     position: absolute;
-    bottom: 10%;
-    left: 30vw;
+    bottom: 0;
+    right: 25vw;
 }
 
 
@@ -138,16 +151,6 @@ nav a:hover {
     max-height: auto;
     margin: 1rem;
 }
-
-
-/*About
-
-#about {
-    background-image: url("../images/artist/4.JPG");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-*/
 
 
 /*Music - Latest Releases*/
