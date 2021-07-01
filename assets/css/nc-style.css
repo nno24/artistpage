@@ -6,7 +6,7 @@ body{
     color: white;
     text-align: center;
     background-color: rgb(27, 27, 27);
-    background-image: url("../images/artist/5.JPG"), url("../images/artist/4.JPG");
+    background-image: url("../images/artist/5-dark.JPG"), url("../images/artist/4-dark.JPG");
     background-repeat: no-repeat, no-repeat;
     background-size: contain, cover;
     background-position: left top, left 45%;
