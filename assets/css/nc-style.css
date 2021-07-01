@@ -110,18 +110,18 @@ nav a:hover {
     margin-top: 30vh;
 }
 #frontpage h1 {
-    font-size: 5rem;
+    font-size: 4rem;
     text-transform: uppercase;
     margin: 0px;
     position: absolute;
     top: 5vh;
-    right: 50vh;
+    right: 50vw;
 }
 
 #frontpage h4 {
     position: absolute;
     top: 12vh;
-    right: 50vh;
+    right: 50vw;
 }
 
 #frontpage button {
@@ -350,4 +350,16 @@ footer img {
     display: inline-block;
     height: 3rem;
     width: auto;
+}
+
+
+/*Media Queries */
+
+@media screen and (max-width: 1200px) {
+    #frontpage {
+      width: 65%;
+      height: 1200px;
+      margin: 0 auto;
+    }
+
 }
