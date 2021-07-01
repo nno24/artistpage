@@ -12,3 +12,8 @@ As a new potential business person, i want to easily and efficiently follow the 
 As a new potential business person, i want to easily and efficiently learn more about the artist
 As a new potential business person, i want to easily and efficiently browse the artist's contents
 As a new potential business person, i want to easily and efficiently get in touch with the artist for business inqueries
+
+Welcome!
+
+Deployed link is [here.](https://nno24.github.io/my-template/)
+
