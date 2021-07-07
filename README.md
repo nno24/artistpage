@@ -15,5 +15,5 @@ As a new potential business person, i want to easily and efficiently get in touc
 
 Welcome!
 
-Deployed link is [here.](https://nno24.github.io/my-template/)
+Deployed link is [here.](https://nno24.github.io/artistpage/)
 
