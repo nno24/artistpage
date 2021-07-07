@@ -6,11 +6,11 @@ body{
     color: white;
     text-align: center;
     background-color: rgb(27, 27, 27);
-    background-image: url("../images/artist/4-dark.JPG");
+    /*background-image: url("../images/artist/4-dark.JPG");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left top;
-    background-attachment: fixed;
+    background-attachment: fixed;*/
 }
 
 p {
