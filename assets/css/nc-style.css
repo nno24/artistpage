@@ -14,8 +14,6 @@ body{
 }
 
 div {
-    background-color: aqua;
-    opacity: 50%;
     height: auto;
     width: 75vw;
     position: relative;
@@ -37,7 +35,11 @@ h2 {
     text-transform: capitalize;
 }
 
-button {
+h3 {
+    text-transform: capitalize;
+}
+
+button,input[type="submit"] {
     height: 3rem;
     width: 10rem;
     border: 3px solid transparent;
@@ -49,14 +51,14 @@ button {
    
 }
 
-button:hover {
+button:hover,input[type="submit"] {
     color: white;
     background-color: rgb(27, 27, 27);
     font-weight: 900;
     border-color: white;
 }
 
-button:active {
+button:active,input[type="submit"] {
     color: black;
     background-color: white;
 }
@@ -74,11 +76,11 @@ button:active {
 /*Nav*/
 nav {
     height: auto;
-    width: 50%;
+    width: 40%;
     padding: 0px;
     position: fixed;
     top: 0;
-    right: 30vw;
+    right: 0;
     z-index: 3;
     background-color: rgb(8, 8, 8);
     opacity: 0.95;
@@ -128,13 +130,13 @@ nav a:hover {
     margin: 1rem;
 }
 
-
-#frontpage h2 {
-    text-align: center;
+/*About*/
+.insta {
+    width: 50%;
+    height: auto;
+    margin-bottom: 2rem;
 }
-
-
-/*Music - Latest Releases*/
+/*Music*/
 #music div {
     height: auto;
 }
@@ -142,80 +144,47 @@ nav a:hover {
 .cover-art {
     width: 75%;
     height: auto;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
 }
 
-#music iframe {
+.youtube, .spotify-artist {
     width: 75%;
     height: 315px;
     margin-bottom: 5rem;
 }
 
-
-.beatport-logo, .traxsource-logo {
-    margin-bottom: 2rem;
-    width: 25vw;
-    height: auto;
- 
+.beatport {
+    width: 75%;
+    height: 162px;
+    margin-bottom: 5rem;
 }
-
-.buy-button {
-    margin-top: 5rem;
-}
-
 
 
 /*Contact*/
 
-#contact div {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    min-height: 30rem;
-    position: relative;
-}
 
+.contact-form {
+    height: 40rem;
+}
 
 input[type=submit] {
-    height: 3rem;
-    width: 10rem;
-    border: 3px solid transparent;
-    font-size: 1rem;
-    font-weight: 800;
-    text-transform: uppercase;
-    color: black;
-    background-color: white;
-    position: absolute;
-    bottom: 20%;
-    right: 25vw;
-    
-}
-
-input[type=submit]:hover {
-    color: white;
-    background-color: rgb(27, 27, 27);
-    font-weight: 900;
-    border-color: white;
-}
-
-input[type=submit]:active {
-    color: black;
-    background-color: white;
-    height: 2.9rem;
-    width: 8.9rem;
+    width: 60%;
+	margin: 0 auto;
+    position:absolute;
+    bottom: 10rem;
+    left: 20%;
 }
 
 input[name=visitor-email],
 input[name=subject-email]{
     height: 2rem;
-    width: 50vw;
-    padding-right: 20px;
+    width: 60%;
 	margin: 0 auto;
 }
 
 input[name=freetext-email]{
     height: 15rem;
-    width: 50vw;
-    padding-right: 20px;
+    width: 60%;
     margin: 0 auto;
 }
 
@@ -247,6 +216,11 @@ footer img {
     width: auto;
 }
 
+.copyright {
+    text-align: center;
+}
+
+
 
 /*Media Queries */
 
@@ -254,16 +228,6 @@ footer img {
     #frontpage h1 {
         font-size: 3rem;
     }
-
-    nav {
-        right: 50vw;
-    }
-    nav a{
-        width: 50vw;
-        margin-left: 1rem;
-        font-size: 1rem;
-    }
-
 
 }
 
@@ -287,18 +251,13 @@ footer img {
         height: auto;
     }
 
-    .beatport-logo, .traxsource-logo {
-        width: 50vw;
-        height: auto;
-    }
-
-    input[type=submit] {
-        right: 15vw;
-    }
-
     article,p {
         width: 80%;
         left: 10%;
         text-align: center;
+    }
+
+    .insta {
+        width: 80%;
     }
 }
