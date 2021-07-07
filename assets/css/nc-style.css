@@ -6,29 +6,35 @@ body{
     color: white;
     text-align: center;
     background-color: rgb(27, 27, 27);
-    /*background-image: url("../images/artist/4-dark.JPG");
+    background-image: url("../images/artist/4-dark.JPG");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left top;
-    background-attachment: fixed;*/
+    background-attachment: fixed;
 }
 
-p {
-    width: 50vw;
-    display: inline-block;
-    text-align: justify;
+div {
+    background-color: aqua;
+    opacity: 50%;
+    height: auto;
+    width: 75vw;
+    position: relative;
+    top: 5vh;
+    left: 12.5%
+
 }
 
-article {
-    width: 80vw;
+
+article,p {
+    width: 50%;
+    position: relative;
+    left: 25%;
     text-align: justify;
-    margin: 3rem 2rem 20rem 5rem;
 }
 
 h2 {
     font-size: 2rem;
     text-transform: capitalize;
-    margin: 0px;
 }
 
 button {
@@ -53,8 +59,6 @@ button:hover {
 button:active {
     color: black;
     background-color: white;
-    height: 2.9rem;
-    width: 8.9rem;
 }
 
 /*Header*/
@@ -98,176 +102,67 @@ nav a:hover {
 
 /*Frontpage*/
 
-#frontpage div {
-    position: relative;
-    height: 80vh;
-    width: 100vw;
-    top: 0vh;
-    right: 0vw;
-    
-}
 #frontpage {
-    margin-top: 30vh;
+    margin-top: 15vh;
 }
 #frontpage h1 {
     font-size: 4rem;
     text-transform: uppercase;
     margin: 0px;
-    position: absolute;
-    top: 5vh;
-    right: 50vw;
-}
-
-#frontpage h4 {
-    position: absolute;
-    top: 12vh;
-    right: 50vw;
 }
 
 #frontpage button {
-    position: absolute;
-    top: 22vh;
-    right: 50vw;
-
+    margin-bottom: 1rem;
 }
-.frontpage-preview {
-    width: 40vw;
-    position: absolute;
-    top: 30vh;
-    right: 35vw;
+
+#frontpage iframe {
+    width: 100%;
+    height: 80px;
+    margin-bottom: 5rem;
 }
 
 
-#frontpage p {
-    position: absolute;
-    bottom: 0;
-    right: 25vw;
-}
-
-
-#frontpage p > img {
-    float:right;
-    max-width: 4rem;
-    max-height: auto;
+.edmlogo {
+    width: 4rem;
+    height: auto;
     margin: 1rem;
 }
 
 
-/*Music - Latest Releases*/
+#frontpage h2 {
+    text-align: center;
+}
 
+
+/*Music - Latest Releases*/
 #music div {
-    position: relative;
-    min-height: 100rem;
-    margin-top: 4rem;
+    height: auto;
+}
+
+.cover-art {
+    width: 75%;
+    height: auto;
     margin-bottom: 5rem;
 }
 
-.song1-cover-art {
-    position: absolute;
-    left: 5%;
-    top: 5%;
-    max-width: auto;
-    max-height: 315px;
-}
-
-.song1-youtube-preview {
-    position: absolute;
-    left: 50%;
-    top: 5%;
-    max-width: auto;
-    max-height: 315px;
-
-}
-
-.song1-play-button {
-    max-width: auto;
-    max-height: 2rem;
-    position: absolute;
-    right: 83vw;
-    top: 22%;
-    z-index: 2;
-
-}
-
-.song2-cover-art {
-    position: absolute;
-    left: 5%;
-    top: 30%;
-    max-width: auto;
-    max-height: 315px;
-}
-
-.song2-youtube-preview {
-    position: absolute;
-    left: 50%;
-    top: 30%;
-    max-width: auto;
-    max-height: 315px;
-
-}
-
-.song2-play-button {
-    max-width: auto;
-    max-height: 2rem;
-    position: absolute;
-    right: 83vw;
-    top: 47%;
-    z-index: 2;
-}
-
-.song3-cover-art {
-    position: absolute;
-    left: 5%;
-    top: 55%;
-    max-width: auto;
-    max-height: 315px;
-}
-
-.song3-youtube-preview {
-    position: absolute;
-    left: 50%;
-    top: 55%;
-    max-width: auto;
-    max-height: 315px;
-
-}
-
-.song3-play-button {
-    max-width: auto;
-    max-height: 2rem;
-    position: absolute;
-    right: 83vw;
-    top: 72%;
-    z-index: 2;
-}
-
-.spotify-artist {
-    position: absolute;
-    bottom: 0;
-    right: 25%;
-    max-width: 50%;
-    max-height: 20%;
+#music iframe {
+    width: 75%;
+    height: 315px;
+    margin-bottom: 5rem;
 }
 
 
-/*Store*/
-
-#store div {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    min-height: 30rem;
+.beatport-logo, .traxsource-logo {
+    margin-bottom: 2rem;
+    width: 25vw;
+    height: auto;
+ 
 }
 
-.beatport-logo {
-    margin-top: 10rem;
-    margin-right: 2rem;
+.buy-button {
+    margin-top: 5rem;
 }
 
-.traxsource-logo {
-    margin-top: 10rem;
-    margin-right: 2rem;
-
-}
 
 
 /*Contact*/
@@ -356,21 +251,16 @@ footer img {
 /*Media Queries */
 
 @media screen and (max-width: 1200px) {
-    #frontpage {
-      width: 65%;
-      height: 100vh;
-      margin: 0 auto;
-    }
-
     #frontpage h1 {
         font-size: 3rem;
-        margin-top: 1rem;
     }
 
+    nav {
+        right: 50vw;
+    }
     nav a{
         width: 50vw;
         margin-left: 1rem;
-        right: 30vw;
         font-size: 1rem;
     }
 
@@ -383,7 +273,9 @@ footer img {
         font-size: 2rem;
         margin-top: 0.7rem;
     }
-
+    nav {
+        top: -100%;
+    }
     nav a {
         font-size: 1rem;
         right: 20vw;
@@ -402,5 +294,11 @@ footer img {
 
     input[type=submit] {
         right: 15vw;
+    }
+
+    article,p {
+        width: 80%;
+        left: 10%;
+        text-align: center;
     }
 }
