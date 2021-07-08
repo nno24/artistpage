@@ -15,10 +15,10 @@ body{
 
 div {
     height: auto;
-    width: 75vw;
+    width: 95%;
     position: relative;
     top: 5vh;
-    left: 12.5%
+    left: 2.5%
 
 }
 
@@ -259,5 +259,25 @@ footer img {
 
     .insta {
         width: 80%;
+    }
+
+    .spotify-artist,.beatport {
+        width: 90%;
+    }
+
+    .youtube {
+        width: 90%;
+        height: 200px;
+    }
+
+    input[name=visitor-email],
+    input[name=subject-email],
+    input[name=freetext-email]{
+        width: 90%;
+    }
+
+    input[type=submit]{
+        width: 90%;
+        left: 5%;
     }
 }
