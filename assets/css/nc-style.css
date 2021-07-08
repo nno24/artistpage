@@ -46,6 +46,7 @@ button,input[type="submit"] {
     font-size: 1rem;
     font-weight: 800;
     text-transform: uppercase;
+    text-align: center;
     color: black;
     background-color: white;
    
@@ -118,7 +119,7 @@ nav a:hover {
 }
 
 #frontpage iframe {
-    width: 100%;
+    width: 95%;
     height: 80px;
     margin-bottom: 5rem;
 }
@@ -142,16 +143,23 @@ nav a:hover {
 }
 
 .cover-art {
-    width: 75%;
+    width: 50%;
     height: auto;
     margin-bottom: 3rem;
 }
 
-.youtube, .spotify-artist {
-    width: 75%;
+.youtube {
+    width: 50%;
+    height: 500px;
+    margin-bottom: 5rem;
+}
+
+.spotify-artist {
+    width: 50%;
     height: 315px;
     margin-bottom: 5rem;
 }
+
 
 .beatport {
     width: 75%;
@@ -229,6 +237,10 @@ footer img {
         font-size: 3rem;
     }
 
+    .youtube {
+        height: 315px;
+    }
+
 }
 
 @media screen and (max-width: 666px) {
@@ -262,11 +274,11 @@ footer img {
     }
 
     .spotify-artist,.beatport {
-        width: 90%;
+        width: 80%;
     }
 
     .youtube {
-        width: 90%;
+        width: 80%;
         height: 200px;
     }
 
