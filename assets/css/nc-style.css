@@ -133,25 +133,41 @@ nav a:hover {
 }
 
 /*About*/
-.insta {
-    width: 25%;
-    height: auto;
-    margin-bottom: 2rem;
+.div-about {
+    background-color: brown;
+    width: 75%;
+    left: 12.5%;
 }
+
+.insta {
+    width: 45%;
+    height: auto;
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-bottom: 5%;
+}
+
 /*Music*/
 #music div {
     height: auto;
 }
 
+.div-music {
+    background-color: brown;
+    width: 75%;
+    left: 12.5%;
+}
+
 .cover-art {
-    width: 50%;
+    width: 35%;
     height: auto;
     margin-bottom: 3rem;
+    margin-right: 2%;
 }
 
 .youtube {
-    width: 50%;
-    height: 500px;
+    width: 45%;
+    height: 400px;
     margin-bottom: 5rem;
 }
 
@@ -242,6 +258,11 @@ footer img {
         height: 315px;
     }
 
+    .div-music {
+        width: 100%;
+        left: 0;
+    }
+
 }
 
 @media screen and (max-width: 666px) {
@@ -270,7 +291,7 @@ footer img {
         text-align: center;
     }
 
-    .insta {
+    .insta, .cover-art {
         width: 80%;
     }
 
