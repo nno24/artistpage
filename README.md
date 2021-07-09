@@ -59,6 +59,13 @@ This is the official artistpage for Nikolay Cranner. It is designed to be respon
 
 -   Interactive elements
 
+-   Media contents, music and video, are playable directly on the page
+
+-   Cover art's representing songs are clickable, and will take you to the song on a streaming platform
+-   Home button is the artist logo on the top left, when clicking this it will take you to the
+top of the page. It is visible all time, to make it easy for the user to move to the top.
+-   Navigation bar is hidden in mobile view, but visible for tablet and desktop
+
 ## Technologies Used
 
 ### Languages Used
