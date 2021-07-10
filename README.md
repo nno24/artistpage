@@ -1,17 +1,3 @@
-<style>
-    img {
-        vertical-align: top;
-        height: 70vh;
-        width: auto;
-        margin-right: 10px;
-        margin-bottom: 20px;
-    }
-
-    .short {
-        height: auto;
-        margin-top: 5vh;
-    }
-</style>
 <h1 align="center">Nikolay Cranner - Artistpage</h1>
 
 [View the live project here.](https://nno24.github.io/artistpage/)
@@ -58,7 +44,20 @@ This is the official artistpage for Nikolay Cranner. It is designed to be respon
         #### Social Media
         -  The footer has all social media links with icons making it easy for the user to click
         and follow.
+    <style>
+        img {
+            vertical-align: top;
+            height: 70vh;
+            width: auto;
+            margin-right: 10px;
+            margin-bottom: 20px;
+        }
 
+        .short {
+            height: auto;
+            margin-top: 5vh;
+        }
+    </style>
 
 *   ### Wireframes
 
