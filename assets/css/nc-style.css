@@ -14,17 +14,15 @@ body{
 }
 
 div {
-    background-color: aqua;
     height: auto;
     width: 95%;
     position: relative;
     top: 5vh;
-    left: 2.5%
-
+    left: 2.5%;
 }
 
 
-article,p {
+p {
     width: 50%;
     position: relative;
     left: 25%;
@@ -78,7 +76,7 @@ button:active,input[type="submit"] {
 /*Nav*/
 nav {
     height: auto;
-    width: 40%;
+    width: 300px;
     padding: 0px;
     position: fixed;
     top: 0;
@@ -125,18 +123,40 @@ nav a:hover {
     margin-bottom: 5rem;
 }
 
-
 .edmlogo {
     width: 4rem;
     height: auto;
     margin: 1rem;
 }
 
+.listen-now {
+    position: relative;
+    width: 40%;
+    left: 30%;
+    margin-bottom: 20rem;
+}
+
+
 /*About*/
-.div-about {
-    background-color: brown;
+
+.about-paragraph {
     width: 75%;
     left: 12.5%;
+}
+#about p {
+    left: 0;
+    display: inline-block;
+    text-align:justify;
+    height: 5vh;
+    width: 45%;
+    margin-right: 1.5rem;
+    margin-top: 1rem;
+}
+
+.div-about {
+    width: 75%;
+    left: 12.5%;
+    margin-bottom: 10rem;
 }
 
 .insta {
@@ -153,7 +173,6 @@ nav a:hover {
 }
 
 .div-music {
-    background-color: brown;
     width: 75%;
     left: 12.5%;
 }
@@ -282,6 +301,12 @@ footer img {
         width: 250px;
         height: 250px;
     }
+
+    .listen-now {
+        width: 60%;
+        left: 20%;
+        margin-bottom: 10rem;
+    }
 }
 
 
@@ -295,6 +320,10 @@ footer img {
     .cover-art {
         width: 200px;
         height: 200px;
+    }
+
+    #about p,p {
+        text-align: center;
     }
 }
 
@@ -313,10 +342,21 @@ footer img {
         width: 30vw;
     }
 
-    article,p {
+    p {
         width: 80%;
         left: 10%;
         text-align: center;
+    }
+
+    .about-paragraph {
+        width: 100%;
+        left: 0;
+    }
+    
+    #about p {
+        width: 80%;
+        left: 5%;
+
     }
 
    
@@ -332,6 +372,11 @@ footer img {
     .cover-art {
         width: 85%;
         height: auto;
+    }
+
+    .listen-now {
+        width: 90%;
+        left: 5%;
     }
 
     input[name=visitor-email],
