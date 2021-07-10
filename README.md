@@ -4,7 +4,9 @@
 
 This is the official artistpage for Nikolay Cranner. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for existing/potential fans and business persons.
 
-<h2 align="center"><img src="assets/images/screenshots/frontpage/ipad.JPG"></h2>
+<h2 align="center">
+    <img src="assets/images/screenshots/frontpage/ipad.JPG">
+</h2>
 
 ## User Experience (UX)
   ## Epic
@@ -45,38 +47,16 @@ This is the official artistpage for Nikolay Cranner. It is designed to be respon
         -  The footer has all social media links with icons making it easy for the user to click
         and follow.
 
-    <!--->    
-    <style>
-        img {
-            vertical-align: top;
-            height: 70vh;
-            width: auto;
-            margin-right: 10px;
-            margin-bottom: 20px;
-        }
-
-        .short {
-            height: auto;
-            margin-top: 5vh;
-        }
-    </style>
-    -->
-*   ### Wireframes
+ *   ### Wireframes
 
 
 
-    <h3 id="wireframes" >Desktop Wireframes</h3>
-    <img align="top" src="assets/wireframes/desktop-1.JPG" alt="desktop-1"></img>
-    <img align="top" src="assets/wireframes/desktop-2.JPG" alt="desktop-2"></img>
-    <img align="top" class= "short" src="assets/wireframes/desktop-3.JPG" alt="desktop-3"></img>   
+        <h3 align="center" id="wireframes">Desktop Wireframes</h3>
+        <h2 align="center"><img align="top" src="assets/wireframes/desktop_full.png" alt="desktop-1"></img></h2>  
 
-    <h3>Mobile Wireframes</h3>
-    <img align="top" src="assets/wireframes/mobile-1.JPG" alt="mobile-1"></img>
-    <img align="top" src="assets/wireframes/mobile-2.JPG" alt="mobile-2"></img>
-    <img align="top" src="assets/wireframes/mobile-3.JPG" alt="mobile-3"></img>
-    <img align="top" src="assets/wireframes/mobile-4.JPG" alt="mobile-4"></img>
-    <img align="top" src="assets/wireframes/mobile-5.JPG" alt="mobile-5"></img>
-    <img align="top" src="assets/wireframes/mobile-6.JPG" alt="mobile-6"></img>
+        <h3>Mobile Wireframes</h3>
+        <img align="center" src="assets/wireframes/mobile_full.png" alt="mobile-1"></img>
+
 
 ## Features
 
@@ -176,13 +156,13 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 The project was deployed to GitHub Pages using the following steps...
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/nno24/artistpage)
 2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
     - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
 4. Under "Source", click the dropdown called "None" and select "Master Branch".
 5. The page will automatically refresh.
-6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
+6. Scroll back down through the page to locate the now published site [link](https://github.com/nno24/artistpage) in the "GitHub Pages" section.
 
 ### Forking the GitHub Repository
 
