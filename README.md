@@ -2,7 +2,7 @@
 
 [View the live project here.](https://nno24.github.io/artistpage/)
 
-This is the official artistpage for Nikolay Cranner. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for existing/potential fans and business persons.
+This is the official artistpage for Nikolay Cranner. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for existing/potential fans and business persons.
 
 <h2 align="center">
     <img src="assets/images/screenshots/frontpage/ipad.JPG">
