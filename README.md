@@ -1,7 +1,4 @@
 <style>
-    img {
-        vertical-align: left;
-    }
 </style>
 
 <h1 align="center">Nikolay Cranner - Artistpage</h1>
@@ -50,13 +47,28 @@ This is the official artistpage for Nikolay Cranner. It is designed to be respon
         #### Social Media
         -  The footer has all social media links with icons making it easy for the user to click
         and follow.
+<style>
+    img {
+        vertical-align: top;
+        height: 70vh;
+        width: auto;
+        margin-right: 10px;
+    }
+
+    .short {
+        height: auto;
+        margin-top: 5vh;
+    }
+</style>
 
 *   ### Wireframes
 
-    <h3>Desktop Wireframes</h3>
+
+
+    <h3 id="wireframes" >Desktop Wireframes</h3>
     <img src="assets/wireframes/desktop-1.JPG" alt="desktop-1"></img>
     <img src="assets/wireframes/desktop-2.JPG" alt="desktop-2"></img>
-    <img src="assets/wireframes/desktop-3.JPG" alt="desktop-3"></img>   
+    <img class= "short" src="assets/wireframes/desktop-3.JPG" alt="desktop-3"></img>   
 
     <h3>Mobile Wireframes</h3>
     <img src="assets/wireframes/mobile-1.JPG" alt="mobile-1"></img>
@@ -65,8 +77,6 @@ This is the official artistpage for Nikolay Cranner. It is designed to be respon
     <img src="assets/wireframes/mobile-4.JPG" alt="mobile-4"></img>
     <img src="assets/wireframes/mobile-5.JPG" alt="mobile-5"></img>
     <img src="assets/wireframes/mobile-6.JPG" alt="mobile-6"></img>
-
-    -   Contact Us Page Wireframe - [View](https://github.com/)
 
 ## Features
 
@@ -90,24 +100,19 @@ top of the page. It is visible all time, to make it easy for the user to move to
 
 ### Frameworks, Libraries & Programs Used
 
-1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
-    - Bootstrap was used to assist with the responsiveness and styling of the website.
 1. [Hover.css:](https://ianlunn.github.io/Hover/)
-    - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
-1. [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
-1. [Font Awesome:](https://fontawesome.com/)
-    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
-1. [jQuery:](https://jquery.com/)
-    - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
-1. [Git](https://git-scm.com/)
+    - Hover.css was used on the navigation menu.
+11. [Git](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
-1. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
-    - Photoshop was used to create the logo, resizing images and editing photos for the website.
-1. [Balsamiq:](https://balsamiq.com/)
-    - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
+1. [GitPod:](https://gitpod.io/)
+    - GitPod is used as the IDE for the project.
+1. [Figma:](https://figma.com/)
+    - Figma was used to create the [wireframes](#wireframes) during the design process.
+1. Images:
+    - Proprietary images and logo was used with acceptance from Nikolay Cranner.
+
 
 ## Testing
 

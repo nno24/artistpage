@@ -121,6 +121,7 @@ nav a:hover {
     width: 95%;
     height: 80px;
     margin-bottom: 5rem;
+    border: none;
 }
 
 .edmlogo {
@@ -188,6 +189,7 @@ nav a:hover {
     width: 600px;
     height: 400px;
     margin-bottom: 3rem;
+    border: none;
 }
 
 .spotify-artist {
@@ -195,6 +197,7 @@ nav a:hover {
     height: 400px;
     margin-bottom: 3rem;
     margin-left: 1vw;
+    border: none;
 }
 
 
@@ -202,6 +205,7 @@ nav a:hover {
     width: 75%;
     height: 162px;
     margin-bottom: 5rem;
+    border: none;
 }
 
 
