@@ -50,12 +50,14 @@ This is the official artistpage for Nikolay Cranner. It is designed to be respon
  *   ### Wireframes
 
 
-
+        <br>
+        <br>
         <h3 align="center" id="wireframes">Desktop Wireframes</h3>
         <h2 align="center"><img align="top" src="assets/wireframes/desktop_full.png" alt="desktop-1"></img></h2>  
-
-        <h3>Mobile Wireframes</h3>
-        <img align="center" src="assets/wireframes/mobile_full.png" alt="mobile-1"></img>
+        <br>
+        <br>
+        <h3 align="center">Mobile Wireframes</h3>
+        <h2 align="center"><img align="top" src="assets/wireframes/mobile_full.png" alt="mobile-1"></img></h2>  
 
 
 ## Features
