@@ -1,3 +1,9 @@
+<style>
+    img {
+        vertical-align: left;
+    }
+</style>
+
 <h1 align="center">Nikolay Cranner - Artistpage</h1>
 
 [View the live project here.](https://nno24.github.io/artistpage/)
@@ -47,9 +53,18 @@ This is the official artistpage for Nikolay Cranner. It is designed to be respon
 
 *   ### Wireframes
 
-    -   Home Page Wireframe - [View](https://github.com/)
+    <h3>Desktop Wireframes</h3>
+    <img src="assets/wireframes/desktop-1.JPG" alt="desktop-1"></img>
+    <img src="assets/wireframes/desktop-2.JPG" alt="desktop-2"></img>
+    <img src="assets/wireframes/desktop-3.JPG" alt="desktop-3"></img>   
 
-    -   Mobile Wireframe - [View](https://github.com/)
+    <h3>Mobile Wireframes</h3>
+    <img src="assets/wireframes/mobile-1.JPG" alt="mobile-1"></img>
+    <img src="assets/wireframes/mobile-2.JPG" alt="mobile-2"></img>
+    <img src="assets/wireframes/mobile-3.JPG" alt="mobile-3"></img>
+    <img src="assets/wireframes/mobile-4.JPG" alt="mobile-4"></img>
+    <img src="assets/wireframes/mobile-5.JPG" alt="mobile-5"></img>
+    <img src="assets/wireframes/mobile-6.JPG" alt="mobile-6"></img>
 
     -   Contact Us Page Wireframe - [View](https://github.com/)
 
