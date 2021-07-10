@@ -44,6 +44,8 @@ This is the official artistpage for Nikolay Cranner. It is designed to be respon
         #### Social Media
         -  The footer has all social media links with icons making it easy for the user to click
         and follow.
+
+    <!--->    
     <style>
         img {
             vertical-align: top;
@@ -58,23 +60,23 @@ This is the official artistpage for Nikolay Cranner. It is designed to be respon
             margin-top: 5vh;
         }
     </style>
-
+    -->
 *   ### Wireframes
 
 
 
     <h3 id="wireframes" >Desktop Wireframes</h3>
-    <img align="top" src="assets/wireframes/desktop-1.JPG" alt="desktop-1"></img>
-    <img align="top" src="assets/wireframes/desktop-2.JPG" alt="desktop-2"></img>
-    <img align="top" class= "short" src="assets/wireframes/desktop-3.JPG" alt="desktop-3"></img>   
+    <img align="center" src="assets/wireframes/desktop-1.JPG" alt="desktop-1"></img>
+    <img align="center" src="assets/wireframes/desktop-2.JPG" alt="desktop-2"></img>
+    <img align="center" class= "short" src="assets/wireframes/desktop-3.JPG" alt="desktop-3"></img>   
 
     <h3>Mobile Wireframes</h3>
-    <img align="top" src="assets/wireframes/mobile-1.JPG" alt="mobile-1"></img>
-    <img align="top" src="assets/wireframes/mobile-2.JPG" alt="mobile-2"></img>
-    <img align="top" src="assets/wireframes/mobile-3.JPG" alt="mobile-3"></img>
-    <img align="top" src="assets/wireframes/mobile-4.JPG" alt="mobile-4"></img>
-    <img align="top" src="assets/wireframes/mobile-5.JPG" alt="mobile-5"></img>
-    <img align="top" src="assets/wireframes/mobile-6.JPG" alt="mobile-6"></img>
+    <img align="center" src="assets/wireframes/mobile-1.JPG" alt="mobile-1"></img>
+    <img align="center" src="assets/wireframes/mobile-2.JPG" alt="mobile-2"></img>
+    <img align="center" src="assets/wireframes/mobile-3.JPG" alt="mobile-3"></img>
+    <img align="center" src="assets/wireframes/mobile-4.JPG" alt="mobile-4"></img>
+    <img align="center" src="assets/wireframes/mobile-5.JPG" alt="mobile-5"></img>
+    <img align="center" src="assets/wireframes/mobile-6.JPG" alt="mobile-6"></img>
 
 ## Features
 
@@ -122,6 +124,7 @@ top of the page. It is visible all time, to make it easy for the user to move to
 1. [Figma:](https://figma.com/)
     - Figma was used to create the [wireframes](#wireframes) during the design process.
 1. [Chrome-DevTools:](https://developer.chrome.com/docs/devtools/)
+    - Chrome DevTools was used to test responsiveness on all devices,to inspect html/css, and to debug the application.
 
 
 
