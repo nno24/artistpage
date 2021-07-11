@@ -46,10 +46,12 @@ This is the official artistpage for Nikolay Cranner. It is designed to be respon
         #### Social Media
         -  The footer has all social media links with icons making it easy for the user to click
         and follow.
-
- *   ### Wireframes/Mockup
-    -   The desktop version of the mockup can be found [here](assets/wireframes/desktop_full.png)
-    -   The mobile version of the mockup can be found [here](assets/wireframes/mobile_full.png)
+    <h2 id="wireframes"></h2>
+        <br>
+        <br>
+-   ### Wireframes/Mockup
+-   The desktop version of the mockup can be found [here](assets/wireframes/desktop_full.png)
+-   The mobile version of the mockup can be found [here](assets/wireframes/mobile_full.png)
 
 
 
