@@ -5,7 +5,7 @@
 This is the official artistpage for Nikolay Cranner. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for existing/potential fans and business persons.
 
 <h2 align="center">
-    <img src="assets/images/screenshots/frontpage/ipad.JPG">
+    <img src="assets/images/screenshots/devices/iphone5.png">
 </h2>
 
 ## User Experience (UX)
@@ -47,17 +47,11 @@ This is the official artistpage for Nikolay Cranner. It is designed to be respon
         -  The footer has all social media links with icons making it easy for the user to click
         and follow.
 
- *   ### Wireframes
+ *   ### Wireframes/Mockup
+    -   The desktop version of the mockup can be found [here](assets/wireframes/desktop_full.png)
+    -   The mobile version of the mockup can be found [here](assets/wireframes/mobile_full.png)
 
 
-        <br>
-        <br>
-        <h3 align="center" id="wireframes">Desktop Wireframes</h3>
-        <h2 align="center"><img align="top" src="assets/wireframes/desktop_full.png" alt="desktop-1"></img></h2>  
-        <br>
-        <br>
-        <h3 align="center">Mobile Wireframes</h3>
-        <h2 align="center"><img align="top" src="assets/wireframes/mobile_full.png" alt="mobile-1"></img></h2>  
 
 
 ## Features
@@ -72,6 +66,11 @@ This is the official artistpage for Nikolay Cranner. It is designed to be respon
 -   Home button is the artist logo on the top left, when clicking this it will take you to the
 top of the page. It is visible all time, to make it easy for the user to move to the top.
 -   Navigation bar is hidden in mobile view, but visible for tablet and desktop
+<h2 align="center">
+    <img src="assets/images/screenshots/devices/ipad-pro-about.JPG">
+    <img src="assets/images/screenshots/devices/ipad-pro-music.JPG">
+</h2>
+
 
 ## Features to be added/fixed
 -   Complete submit button to be fully functional.
